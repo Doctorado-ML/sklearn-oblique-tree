@@ -174,3 +174,7 @@ fabric.properties
 *.eggs/
 venv/
 cython_debug/
+*.o
+mktree
+display
+gendata

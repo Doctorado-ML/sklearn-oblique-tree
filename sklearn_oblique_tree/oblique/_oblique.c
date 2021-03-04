@@ -6002,7 +6002,7 @@ static int __Pyx_modinit_type_init_code(void) {
   __pyx_vtable_20sklearn_oblique_tree_7oblique_8_oblique_Tree.fit = (PyObject *(*)(struct __pyx_obj_20sklearn_oblique_tree_7oblique_8_oblique_Tree *, PyArrayObject *, PyArrayObject *, long, PyObject *, int, int, int __pyx_skip_dispatch))__pyx_f_20sklearn_oblique_tree_7oblique_8_oblique_4Tree_fit;
   __pyx_vtable_20sklearn_oblique_tree_7oblique_8_oblique_Tree.predict = (PyObject *(*)(struct __pyx_obj_20sklearn_oblique_tree_7oblique_8_oblique_Tree *, PyArrayObject *, int __pyx_skip_dispatch))__pyx_f_20sklearn_oblique_tree_7oblique_8_oblique_4Tree_predict;
   if (PyType_Ready(&__pyx_type_20sklearn_oblique_tree_7oblique_8_oblique_Tree) < 0) __PYX_ERR(0, 8, __pyx_L1_error)
-  __pyx_type_20sklearn_oblique_tree_7oblique_8_oblique_Tree.tp_print = 0;
+  //__pyx_type_20sklearn_oblique_tree_7oblique_8_oblique_Tree.tp_print = 0;
   if ((CYTHON_USE_TYPE_SLOTS && CYTHON_USE_PYTYPE_LOOKUP) && likely(!__pyx_type_20sklearn_oblique_tree_7oblique_8_oblique_Tree.tp_dictoffset && __pyx_type_20sklearn_oblique_tree_7oblique_8_oblique_Tree.tp_getattro == PyObject_GenericGetAttr)) {
     __pyx_type_20sklearn_oblique_tree_7oblique_8_oblique_Tree.tp_getattro = __Pyx_PyObject_GenericGetAttr;
   }
